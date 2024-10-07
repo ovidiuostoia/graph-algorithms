@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=2_Uuixtc5i0
 - a graph is called `acyclic` if it has no cycles, this means that it doesn't have infinite cycles.
 
 ```python
+# adjency list graph example
 graph = {
     "a": ["b", "c"],
     "b": ["d"],
@@ -18,6 +19,15 @@ graph = {
     "e": ["b"],
     "f": ["d"]
 }
+
+# edges list graph example
+edges = [
+    ["w", "x"],
+    ["x", "y"],
+    ["z", "y"],
+    ["z", "v"],
+    ["w", "v"],
+]
 ```
 
 ## Graph traversal

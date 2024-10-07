@@ -1,4 +1,4 @@
-def edgesToAdjaencyList(edges: list) -> dict:
+def edgesToAdjencyList(edges: list) -> dict:
     graph = {}
 
     for edge in edges:
@@ -72,7 +72,7 @@ def main():
         ["o", "n"]
     ]
     
-    graph = edgesToAdjaencyList(edges)
+    graph = edgesToAdjencyList(edges)
     # for node, neighbors in graph.items():
     #     print(f"{node}: {neighbors}")
 
