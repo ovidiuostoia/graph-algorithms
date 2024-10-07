@@ -25,7 +25,10 @@ graph = {
 ### Depth-First Search
 - it uses a stack
 - searches in one direction as much as possible, then backtracks
+- can be implemented in an iterative or recursive way
 
 ### Breadth-First Search
 - it uses a queue
 - searches evenly in all directions
+- it is implemented in an iterative way
+- in an unweighted graph, BFS always returns the shortest path between two nodes
